@@ -13,7 +13,7 @@ Simply open `index.html` in any modern web browser. No server or installation re
 - **Name:** Aayush Kadam
 - **PRN:** 202501100202
 - **Institution:** MIT Academy of Engineering, Alandi, Pune
-- **Program:** B.E. Software Engineering — Year 1
+- **Program:** Software Engineering — Year 1
 
 ## 🏆 Certifications
 1. NASSCOM Future Skills Certificate
