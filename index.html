@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ayush Kadam — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Noise Overlay -->
+  <div class="noise"></div>
+
+  <!-- Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-logo">AK<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">AYUSH</div>
+    <div class="hero-content">
+      <div class="hero-tag">
+        <span class="blink">▮</span> Available for Internships & Collaborations
+      </div>
+      <h1 class="hero-name">
+        <span class="line" style="--d:0.1s">Ayush</span>
+        <span class="line accent" style="--d:0.25s">Kadam<span class="dot">.</span></span>
+      </h1>
+      <p class="hero-sub" style="--d:0.4s">
+        Software Engineering Student <br/>
+        <span class="dim">MITAOE · First Year · Batch of 2028</span>
+      </p>
+      <div class="hero-cta" style="--d:0.55s">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>scroll</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label">01 — About</div>
+      <div class="about-grid">
+        <div class="about-left">
+          <div class="avatar-wrap">
+            <div class="avatar-box">
+              <div class="avatar-initials">AK</div>
+            </div>
+            <div class="avatar-badge">MITAOE</div>
+          </div>
+        </div>
+        <div class="about-right">
+          <h2 class="section-title">Turning ideas into <span class="accent">code</span>.</h2>
+          <p class="about-text">
+            Hey! I'm Ayush Kadam, a first-year Software Engineering student at MIT Academy of Engineering, Pune. I'm passionate about building things that live on the internet — and occasionally things that don't.
+          </p>
+          <p class="about-text">
+            I enjoy solving algorithmic problems, building web experiences, and exploring how software shapes the world around us. Always learning, always building.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Languages</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">1st</span>
+              <span class="stat-label">Year</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">∞</span>
+              <span class="stat-label">Curiosity</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label">02 — Skills</div>
+      <h2 class="section-title">My <span class="accent">toolkit</span>.</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card" data-level="85">
+          <div class="skill-icon">🐍</div>
+          <div class="skill-info">
+            <span class="skill-name">Python</span>
+            <span class="skill-type">Programming</span>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="--w:85%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-level="78">
+          <div class="skill-icon">⚙️</div>
+          <div class="skill-info">
+            <span class="skill-name">C++</span>
+            <span class="skill-type">Programming</span>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="--w:78%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-level="75">
+          <div class="skill-icon">☕</div>
+          <div class="skill-info">
+            <span class="skill-name">Java</span>
+            <span class="skill-type">Programming</span>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="--w:75%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-level="80">
+          <div class="skill-icon">🌐</div>
+          <div class="skill-info">
+            <span class="skill-name">HTML</span>
+            <span class="skill-type">Web</span>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="--w:80%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-level="75">
+          <div class="skill-icon">🎨</div>
+          <div class="skill-info">
+            <span class="skill-name">CSS</span>
+            <span class="skill-type">Web</span>
+          </div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="--w:75%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card special">
+          <div class="skill-icon">🎓</div>
+          <div class="skill-info">
+            <span class="skill-type">JavaScript · DSA · Git</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+span class="skill-name">Currently Learning</span>
+            <
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label">03 — Projects</div>
+      <h2 class="section-title">Things I've <span class="accent">built</span>.</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-num">01</div>
+          <div class="project-lang python">Python</div>
+          <h3 class="project-title">Calculator App</h3>
+          <p class="project-desc">A command-line calculator with support for basic arithmetic, history tracking, and scientific functions built in Python.</p>
+          <div class="project-tags">
+            <span>Python</span><span>CLI</span><span>OOP</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-num">02</div>
+          <div class="project-lang cpp">C++</div>
+          <h3 class="project-title">Student Record System</h3>
+          <p class="project-desc">A console-based system to manage student records using file I/O, structs, and basic CRUD operations implemented in C++.</p>
+          <div class="project-tags">
+            <span>C++</span><span>File I/O</span><span>Structs</span>
+          </div>
+        </div>
+
+        <div class="project-card featured">
+          <div class="project-num">03</div>
+          <div class="project-lang web">HTML/CSS</div>
+          <h3 class="project-title">Personal Portfolio</h3>
+          <p class="project-desc">This very portfolio — designed and developed from scratch using modern HTML5 and CSS3. Fully responsive with custom animations.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>Responsive</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-num">04</div>
+          <div class="project-lang java">Java</div>
+          <h3 class="project-title">Bank Management System</h3>
+          <p class="project-desc">Object-oriented banking simulation with account creation, deposits, withdrawals, and transaction history using Java.</p>
+          <div class="project-tags">
+            <span>Java</span><span>OOP</span><span>Collections</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label">04 — Contact</div>
+      <div class="contact-inner">
+        <h2 class="contact-heading">Let's <span class="accent">connect</span>.</h2>
+        <p class="contact-sub">I'm always open to discussing projects, internships, or just geeking out over tech.</p>
+        <div class="contact-links">
+          <a href="mailto:202501100202@mitaoe.ac.in" class="contact-item">
+            <span class="c-icon">✉</span>
+            <span>202501100202@mitaoe.ac.in</span>
+          </a>
+          <a href="https://github.com/kadamaayush63" target="_blank" class="contact-item">
+            <span class="c-icon">⌥</span>
+            <span>https://github.com/kadamaayush63</span>
+          </a>
+          <a href="https://www.linkedin.com/in/aayush-kadam-4b7799406/" target="_blank" class="contact-item">
+            <span class="c-icon">in</span>
+            <span>https://www.linkedin.com/in/aayush-kadam-4b7799406/</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <span>© 2025 Ayush Kadam</span>
+      <span class="footer-tag">Built with HTML & CSS · MITAOE</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
