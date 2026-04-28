@@ -1,6 +1,6 @@
 Ayush Kadam— Digital Portfolio
 
-A personal digital portfolio website for Sudarshan Kadam, First Year Software Engineering student at MIT Academy of Engineering (MITAoE), Pune.
+A personal digital portfolio website for Ayush Kadam, First Year Software Engineering student at MIT Academy of Engineering (MITAoE), Pune.
 
 📁 Files
 - `index.html` — Main portfolio page
